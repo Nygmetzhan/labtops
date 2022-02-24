@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>LABtops | Laptops advertisement webpage</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+       <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+
+ <div class="header">
+  <div class="container">
+   <div class = "navbar">
+    <div class="logo">
+     <img src="assets//logo.png">
+    </div>
+    <nav>
+     <ul id="Menuitems">
+      <li><a href="C:\D.K\2nd trimestr\Front-End\Projects\newproject\index.html" onclick="menutoggle()">Home</a></li>
+      <li><a href="">Contacts</a></li>
+     </ul>
+    </nav>
+     <img src="assets/menu.png" class="menu-icon" style="width: 30px; height: 30px;" onclick="menutoggle">
+   </div>
+  </div>
+ </div>
+
+  <div class="row1">
+    <div class="col-2">
+      <img src="assets/assetL2.jpg">
+    </div>
+    <div class="col-2">
+      <h2>ACER PREDATOR TRITON 300S PT314-51S-52X6</h2>
+    </div>
+  </div>
+
+  <div class="row1">
+    <div class="col-2">
+      <p>The configuration is based on the Intel Core i5-11300P Tiger Lake generation processor with a Boost frequency up to 5 GHz. The mobile version of GeForce RTX 3060 is responsible for graphics processing in the economical version of Max. Installed 24 GB of DDR4-3200 memory, which works in dual-channel mode. For data storage, a fast NVMe M.2 drive with a capacity of 1 TB is used.</p>
+        <br>
+        <h5 style="color: #F4A460">Look for this product here:</h5>
+        <a href="https://www.sulpak.kz/g/noutbuk_acer_predator_triton_300s_pt314_51s_52x6_nh_qbjer_003_62_2231#characteristicsTab"<p>Sulpak</p></a>
+        <a href="https://kaspi.kz/shop/p/acer-predator-triton-300se-pt314-51s-51nz-nh-qbjer-004-serebristyi-101750023/?c=750000000"><p>Kaspi</p></a>
+    </div>
+    <div class="col-2">
+      <h1>
+        <button class="buttonn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          Characteristics
+        </button>
+      </h1>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px;">
+            <p>Display: 14 ", 1920x1080 </p>
+            <p>Processor: Intel® Core™ i5-11300H, 4.4 GHz</p>
+            <p>RAM: 16 GB</p>
+            <p>Storage: SSD, 1024 GB</p>
+            <p>OS: DOS</p>
+            <p>Battery capacity: 60W*h</p>
+            <p>Laptop weight: 1.8 kg</p>
+            <p>Video adapter: nVidia GeForce RTX</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var Menuitems = document.getElementsByName("Menuitems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "200px";
+      }else{
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+</body>
+</html>
